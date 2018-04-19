@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA277DEA2087980100B1EAC8 /* PlaneMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA277DE92087980100B1EAC8 /* PlaneMovement.swift */; };
 		CA8E9E60208778C20078460E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9E5F208778C20078460E /* AppDelegate.swift */; };
 		CA8E9E62208778C20078460E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9E61208778C20078460E /* ViewController.swift */; };
 		CA8E9E65208778C20078460E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8E9E63208778C20078460E /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		CA8E9E6A208778C20078460E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8E9E68208778C20078460E /* LaunchScreen.storyboard */; };
 		CA8E9E75208778C20078460E /* MCGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9E74208778C20078460E /* MCGameTests.swift */; };
 		CA8E9E80208778C20078460E /* MCGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9E7F208778C20078460E /* MCGameUITests.swift */; };
+		CA8E9E8E208779230078460E /* GameBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA8E9E8D208779230078460E /* GameBackground.jpg */; };
+		CA8E9E902087797F0078460E /* Plane.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8E9E8F2087797F0078460E /* Plane.png */; };
+		CAD235E920889B5E006F4A37 /* Plane1.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD235E520889B5E006F4A37 /* Plane1.png */; };
+		CAD235EA20889B5E006F4A37 /* Plane2.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD235E620889B5E006F4A37 /* Plane2.png */; };
+		CAD235EB20889B5E006F4A37 /* Plane3.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD235E720889B5E006F4A37 /* Plane3.png */; };
+		CAD235EC20889B5E006F4A37 /* Plane4.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD235E820889B5E006F4A37 /* Plane4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA277DE92087980100B1EAC8 /* PlaneMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaneMovement.swift; path = Plane/PlaneMovement.swift; sourceTree = "<group>"; };
 		CA8E9E5C208778C20078460E /* MCGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8E9E5F208778C20078460E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA8E9E61208778C20078460E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		CA8E9E7B208778C20078460E /* MCGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8E9E7F208778C20078460E /* MCGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCGameUITests.swift; sourceTree = "<group>"; };
 		CA8E9E81208778C20078460E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8E9E8D208779230078460E /* GameBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GameBackground.jpg; path = ../../../../Downloads/GameBackground.jpg; sourceTree = "<group>"; };
+		CA8E9E8F2087797F0078460E /* Plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Plane.png; path = ../../../../Downloads/Clouds/Plane.png; sourceTree = "<group>"; };
+		CAD235E520889B5E006F4A37 /* Plane1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plane1.png; sourceTree = "<group>"; };
+		CAD235E620889B5E006F4A37 /* Plane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plane2.png; sourceTree = "<group>"; };
+		CAD235E720889B5E006F4A37 /* Plane3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plane3.png; sourceTree = "<group>"; };
+		CAD235E820889B5E006F4A37 /* Plane4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plane4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,18 @@
 		CA8E9E5E208778C20078460E /* MCGame */ = {
 			isa = PBXGroup;
 			children = (
+				CA8E9E8F2087797F0078460E /* Plane.png */,
 				CA8E9E5F208778C20078460E /* AppDelegate.swift */,
 				CA8E9E61208778C20078460E /* ViewController.swift */,
+				CA277DE92087980100B1EAC8 /* PlaneMovement.swift */,
 				CA8E9E63208778C20078460E /* Main.storyboard */,
 				CA8E9E66208778C20078460E /* Assets.xcassets */,
 				CA8E9E68208778C20078460E /* LaunchScreen.storyboard */,
 				CA8E9E6B208778C20078460E /* Info.plist */,
+				CAD235E520889B5E006F4A37 /* Plane1.png */,
+				CAD235E620889B5E006F4A37 /* Plane2.png */,
+				CAD235E720889B5E006F4A37 /* Plane3.png */,
+				CAD235E820889B5E006F4A37 /* Plane4.png */,
 			);
 			path = MCGame;
 			sourceTree = "<group>";
@@ -110,6 +130,7 @@
 		CA8E9E73208778C20078460E /* MCGameTests */ = {
 			isa = PBXGroup;
 			children = (
+				CA8E9E8D208779230078460E /* GameBackground.jpg */,
 				CA8E9E74208778C20078460E /* MCGameTests.swift */,
 				CA8E9E76208778C20078460E /* Info.plist */,
 			);
@@ -232,9 +253,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD235EB20889B5E006F4A37 /* Plane3.png in Resources */,
+				CAD235EC20889B5E006F4A37 /* Plane4.png in Resources */,
+				CA8E9E902087797F0078460E /* Plane.png in Resources */,
 				CA8E9E6A208778C20078460E /* LaunchScreen.storyboard in Resources */,
 				CA8E9E67208778C20078460E /* Assets.xcassets in Resources */,
+				CAD235EA20889B5E006F4A37 /* Plane2.png in Resources */,
 				CA8E9E65208778C20078460E /* Main.storyboard in Resources */,
+				CAD235E920889B5E006F4A37 /* Plane1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8E9E8E208779230078460E /* GameBackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8E9E62208778C20078460E /* ViewController.swift in Sources */,
+				CA277DEA2087980100B1EAC8 /* PlaneMovement.swift in Sources */,
 				CA8E9E60208778C20078460E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +535,7 @@
 				CA8E9E86208778C20078460E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8E9E87208778C20078460E /* Build configuration list for PBXNativeTarget "MCGameTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +544,7 @@
 				CA8E9E89208778C20078460E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8E9E8A208778C20078460E /* Build configuration list for PBXNativeTarget "MCGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +553,7 @@
 				CA8E9E8C208778C20078460E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
